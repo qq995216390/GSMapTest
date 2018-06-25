@@ -1,5 +1,6 @@
 # GSMapTest
 fang
+查看图片请用 Safari  浏览器
 高德API没有上传。需要自己用 Pod 集成。Podfile里面已经写好，只需要Pod install 即可。
 周边暂时没时间写。以后会慢慢补上。
 本Demo 主要 由实现过程  分步展示。
