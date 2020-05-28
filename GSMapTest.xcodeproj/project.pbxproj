@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5B4595F247F9840004F96AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B4595E247F9840004F96AF /* AppDelegate.m */; };
+		E5B45962247F9840004F96AF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45961247F9840004F96AF /* SceneDelegate.m */; };
+		E5B45965247F9840004F96AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45964247F9840004F96AF /* ViewController.m */; };
+		E5B45968247F9840004F96AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B45966247F9840004F96AF /* Main.storyboard */; };
+		E5B4596A247F9842004F96AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B45969247F9842004F96AF /* Assets.xcassets */; };
+		E5B4596D247F9842004F96AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B4596B247F9842004F96AF /* LaunchScreen.storyboard */; };
+		E5B45970247F9842004F96AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B4596F247F9842004F96AF /* main.m */; };
+		E5B4597A247F9842004F96AF /* GSMapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45979247F9842004F96AF /* GSMapTestTests.m */; };
+		E5B45985247F9842004F96AF /* GSMapTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45984247F9842004F96AF /* GSMapTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5B45976247F9842004F96AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B45952247F9840004F96AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B45959247F9840004F96AF;
+			remoteInfo = GSMapTest;
+		};
+		E5B45981247F9842004F96AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B45952247F9840004F96AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B45959247F9840004F96AF;
+			remoteInfo = GSMapTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5B4595A247F9840004F96AF /* GSMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSMapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B4595D247F9840004F96AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5B4595E247F9840004F96AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5B45960247F9840004F96AF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E5B45961247F9840004F96AF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E5B45963247F9840004F96AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5B45964247F9840004F96AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5B45967247F9840004F96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5B45969247F9842004F96AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5B4596C247F9842004F96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5B4596E247F9842004F96AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B4596F247F9842004F96AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5B45975247F9842004F96AF /* GSMapTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMapTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B45979247F9842004F96AF /* GSMapTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMapTestTests.m; sourceTree = "<group>"; };
+		E5B4597B247F9842004F96AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B45980247F9842004F96AF /* GSMapTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMapTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B45984247F9842004F96AF /* GSMapTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMapTestUITests.m; sourceTree = "<group>"; };
+		E5B45986247F9842004F96AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5B45957247F9840004F96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B45972247F9842004F96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B4597D247F9842004F96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5B45951247F9840004F96AF = {
+			isa = PBXGroup;
+			children = (
+				E5B4595C247F9840004F96AF /* GSMapTest */,
+				E5B45978247F9842004F96AF /* GSMapTestTests */,
+				E5B45983247F9842004F96AF /* GSMapTestUITests */,
+				E5B4595B247F9840004F96AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B4595B247F9840004F96AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5B4595A247F9840004F96AF /* GSMapTest.app */,
+				E5B45975247F9842004F96AF /* GSMapTestTests.xctest */,
+				E5B45980247F9842004F96AF /* GSMapTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5B4595C247F9840004F96AF /* GSMapTest */ = {
+			isa = PBXGroup;
+			children = (
+				E5B4595D247F9840004F96AF /* AppDelegate.h */,
+				E5B4595E247F9840004F96AF /* AppDelegate.m */,
+				E5B45960247F9840004F96AF /* SceneDelegate.h */,
+				E5B45961247F9840004F96AF /* SceneDelegate.m */,
+				E5B45963247F9840004F96AF /* ViewController.h */,
+				E5B45964247F9840004F96AF /* ViewController.m */,
+				E5B45966247F9840004F96AF /* Main.storyboard */,
+				E5B45969247F9842004F96AF /* Assets.xcassets */,
+				E5B4596B247F9842004F96AF /* LaunchScreen.storyboard */,
+				E5B4596E247F9842004F96AF /* Info.plist */,
+				E5B4596F247F9842004F96AF /* main.m */,
+			);
+			path = GSMapTest;
+			sourceTree = "<group>";
+		};
+		E5B45978247F9842004F96AF /* GSMapTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5B45979247F9842004F96AF /* GSMapTestTests.m */,
+				E5B4597B247F9842004F96AF /* Info.plist */,
+			);
+			path = GSMapTestTests;
+			sourceTree = "<group>";
+		};
+		E5B45983247F9842004F96AF /* GSMapTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5B45984247F9842004F96AF /* GSMapTestUITests.m */,
+				E5B45986247F9842004F96AF /* Info.plist */,
+			);
+			path = GSMapTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5B45959247F9840004F96AF /* GSMapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B45989247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTest" */;
+			buildPhases = (
+				E5B45956247F9840004F96AF /* Sources */,
+				E5B45957247F9840004F96AF /* Frameworks */,
+				E5B45958247F9840004F96AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSMapTest;
+			productName = GSMapTest;
+			productReference = E5B4595A247F9840004F96AF /* GSMapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5B45974247F9842004F96AF /* GSMapTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B4598C247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTestTests" */;
+			buildPhases = (
+				E5B45971247F9842004F96AF /* Sources */,
+				E5B45972247F9842004F96AF /* Frameworks */,
+				E5B45973247F9842004F96AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B45977247F9842004F96AF /* PBXTargetDependency */,
+			);
+			name = GSMapTestTests;
+			productName = GSMapTestTests;
+			productReference = E5B45975247F9842004F96AF /* GSMapTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5B4597F247F9842004F96AF /* GSMapTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B4598F247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTestUITests" */;
+			buildPhases = (
+				E5B4597C247F9842004F96AF /* Sources */,
+				E5B4597D247F9842004F96AF /* Frameworks */,
+				E5B4597E247F9842004F96AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B45982247F9842004F96AF /* PBXTargetDependency */,
+			);
+			name = GSMapTestUITests;
+			productName = GSMapTestUITests;
+			productReference = E5B45980247F9842004F96AF /* GSMapTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5B45952247F9840004F96AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = YY;
+				TargetAttributes = {
+					E5B45959247F9840004F96AF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E5B45974247F9842004F96AF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E5B45959247F9840004F96AF;
+					};
+					E5B4597F247F9842004F96AF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E5B45959247F9840004F96AF;
+					};
+				};
+			};
+			buildConfigurationList = E5B45955247F9840004F96AF /* Build configuration list for PBXProject "GSMapTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5B45951247F9840004F96AF;
+			productRefGroup = E5B4595B247F9840004F96AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B45959247F9840004F96AF /* GSMapTest */,
+				E5B45974247F9842004F96AF /* GSMapTestTests */,
+				E5B4597F247F9842004F96AF /* GSMapTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5B45958247F9840004F96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B4596D247F9842004F96AF /* LaunchScreen.storyboard in Resources */,
+				E5B4596A247F9842004F96AF /* Assets.xcassets in Resources */,
+				E5B45968247F9840004F96AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B45973247F9842004F96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B4597E247F9842004F96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5B45956247F9840004F96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B45965247F9840004F96AF /* ViewController.m in Sources */,
+				E5B4595F247F9840004F96AF /* AppDelegate.m in Sources */,
+				E5B45970247F9842004F96AF /* main.m in Sources */,
+				E5B45962247F9840004F96AF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B45971247F9842004F96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B4597A247F9842004F96AF /* GSMapTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B4597C247F9842004F96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B45985247F9842004F96AF /* GSMapTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5B45977247F9842004F96AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5B45959247F9840004F96AF /* GSMapTest */;
+			targetProxy = E5B45976247F9842004F96AF /* PBXContainerItemProxy */;
+		};
+		E5B45982247F9842004F96AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5B45959247F9840004F96AF /* GSMapTest */;
+			targetProxy = E5B45981247F9842004F96AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5B45966247F9840004F96AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B45967247F9840004F96AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5B4596B247F9842004F96AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B4596C247F9842004F96AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5B45987247F9842004F96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5B45988247F9842004F96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5B4598A247F9842004F96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DHHAB2576;
+				INFOPLIST_FILE = GSMapTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5B4598B247F9842004F96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DHHAB2576;
+				INFOPLIST_FILE = GSMapTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5B4598D247F9842004F96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DHHAB2576;
+				INFOPLIST_FILE = GSMapTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSMapTest.app/GSMapTest";
+			};
+			name = Debug;
+		};
+		E5B4598E247F9842004F96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DHHAB2576;
+				INFOPLIST_FILE = GSMapTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSMapTest.app/GSMapTest";
+			};
+			name = Release;
+		};
+		E5B45990247F9842004F96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DHHAB2576;
+				INFOPLIST_FILE = GSMapTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSMapTest;
+			};
+			name = Debug;
+		};
+		E5B45991247F9842004F96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DHHAB2576;
+				INFOPLIST_FILE = GSMapTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSMapTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5B45955247F9840004F96AF /* Build configuration list for PBXProject "GSMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B45987247F9842004F96AF /* Debug */,
+				E5B45988247F9842004F96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B45989247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B4598A247F9842004F96AF /* Debug */,
+				E5B4598B247F9842004F96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B4598C247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B4598D247F9842004F96AF /* Debug */,
+				E5B4598E247F9842004F96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B4598F247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B45990247F9842004F96AF /* Debug */,
+				E5B45991247F9842004F96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5B45952247F9840004F96AF /* Project object */;
+}
