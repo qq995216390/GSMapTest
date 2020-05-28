@@ -8,5 +8,3 @@ fang
 ![Image text](https://github.com/qq995216390/img-folder/blob/master/31529395891_.pic_hd.png)
 数据是 模拟的。只显示一条数据线：徐汇(9)--->龙华(8)
 ![Image text](https://github.com/qq995216390/img-folder/blob/master/11529395890_.pic_hd.png)
-数据是 模拟的。只显示一条数据线：徐汇(9)--->龙华(8)
-![Image text](https://github.com/qq995216390/img-folder/blob/master/21529395890_.pic_hd.png)
