@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABD93D41580A4FA073846AE6 /* libPods-GSMapTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 796096895F1CEDAC579314CB /* libPods-GSMapTest.a */; };
 		E5B4595F247F9840004F96AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B4595E247F9840004F96AF /* AppDelegate.m */; };
 		E5B45962247F9840004F96AF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45961247F9840004F96AF /* SceneDelegate.m */; };
 		E5B45965247F9840004F96AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45964247F9840004F96AF /* ViewController.m */; };
@@ -16,6 +17,24 @@
 		E5B45970247F9842004F96AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B4596F247F9842004F96AF /* main.m */; };
 		E5B4597A247F9842004F96AF /* GSMapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45979247F9842004F96AF /* GSMapTestTests.m */; };
 		E5B45985247F9842004F96AF /* GSMapTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45984247F9842004F96AF /* GSMapTestUITests.m */; };
+		E5B45993247F9850004F96AF /* jiangxiaoyu.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B45992247F9850004F96AF /* jiangxiaoyu.png */; };
+		E5B45998247F98AE004F96AF /* SystemMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45994247F98AE004F96AF /* SystemMessageCell.m */; };
+		E5B45999247F98AE004F96AF /* SystemMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B45997247F98AE004F96AF /* SystemMessageCell.xib */; };
+		E5B4599E247F98CD004F96AF /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B4599C247F98CD004F96AF /* Foundation+Log.m */; };
+		E5B459BC247F98DA004F96AF /* GSMAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459A0247F98DA004F96AF /* GSMAPointAnnotation.m */; };
+		E5B459BD247F98DA004F96AF /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459A3247F98DA004F96AF /* CustomAnnotationView.m */; };
+		E5B459BE247F98DA004F96AF /* GSCustomRectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459A4247F98DA004F96AF /* GSCustomRectangleView.m */; };
+		E5B459BF247F98DA004F96AF /* MapTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459A6247F98DA004F96AF /* MapTabView.m */; };
+		E5B459C0247F98DA004F96AF /* GSCustomRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459A8247F98DA004F96AF /* GSCustomRoundView.m */; };
+		E5B459C1247F98DA004F96AF /* UsedHouseMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B459A9247F98DA004F96AF /* UsedHouseMainCell.xib */; };
+		E5B459C2247F98DA004F96AF /* MapTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B459AC247F98DA004F96AF /* MapTabView.xib */; };
+		E5B459C3247F98DA004F96AF /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459AD247F98DA004F96AF /* CustomCalloutView.m */; };
+		E5B459C4247F98DA004F96AF /* UsedHouseMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459AF247F98DA004F96AF /* UsedHouseMainCell.m */; };
+		E5B459C5247F98DA004F96AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459B4247F98DA004F96AF /* BaseViewController.m */; };
+		E5B459C6247F98DA004F96AF /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459B6247F98DA004F96AF /* AViewController.m */; };
+		E5B459C7247F98DA004F96AF /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459B7247F98DA004F96AF /* DViewController.m */; };
+		E5B459C8247F98DA004F96AF /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459B8247F98DA004F96AF /* CViewController.m */; };
+		E5B459C9247F98DA004F96AF /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B459B9247F98DA004F96AF /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B232683881C889BEB0B3DF5 /* Pods-GSMapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMapTest.release.xcconfig"; path = "Target Support Files/Pods-GSMapTest/Pods-GSMapTest.release.xcconfig"; sourceTree = "<group>"; };
+		796096895F1CEDAC579314CB /* libPods-GSMapTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSMapTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B4595A247F9840004F96AF /* GSMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSMapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B4595D247F9840004F96AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5B4595E247F9840004F96AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +75,40 @@
 		E5B45980247F9842004F96AF /* GSMapTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMapTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B45984247F9842004F96AF /* GSMapTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMapTestUITests.m; sourceTree = "<group>"; };
 		E5B45986247F9842004F96AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B45992247F9850004F96AF /* jiangxiaoyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiangxiaoyu.png; sourceTree = "<group>"; };
+		E5B45994247F98AE004F96AF /* SystemMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessageCell.m; sourceTree = "<group>"; };
+		E5B45995247F98AE004F96AF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E5B45996247F98AE004F96AF /* SystemMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessageCell.h; sourceTree = "<group>"; };
+		E5B45997247F98AE004F96AF /* SystemMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemMessageCell.xib; sourceTree = "<group>"; };
+		E5B4599C247F98CD004F96AF /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		E5B4599D247F98CD004F96AF /* GSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMacro.h; sourceTree = "<group>"; };
+		E5B459A0247F98DA004F96AF /* GSMAPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMAPointAnnotation.m; sourceTree = "<group>"; };
+		E5B459A1247F98DA004F96AF /* GSMAPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMAPointAnnotation.h; sourceTree = "<group>"; };
+		E5B459A3247F98DA004F96AF /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		E5B459A4247F98DA004F96AF /* GSCustomRectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCustomRectangleView.m; sourceTree = "<group>"; };
+		E5B459A5247F98DA004F96AF /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		E5B459A6247F98DA004F96AF /* MapTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTabView.m; sourceTree = "<group>"; };
+		E5B459A7247F98DA004F96AF /* UsedHouseMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsedHouseMainCell.h; sourceTree = "<group>"; };
+		E5B459A8247F98DA004F96AF /* GSCustomRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSCustomRoundView.m; sourceTree = "<group>"; };
+		E5B459A9247F98DA004F96AF /* UsedHouseMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsedHouseMainCell.xib; sourceTree = "<group>"; };
+		E5B459AA247F98DA004F96AF /* GSCustomRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCustomRectangleView.h; sourceTree = "<group>"; };
+		E5B459AB247F98DA004F96AF /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		E5B459AC247F98DA004F96AF /* MapTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTabView.xib; sourceTree = "<group>"; };
+		E5B459AD247F98DA004F96AF /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		E5B459AE247F98DA004F96AF /* GSCustomRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSCustomRoundView.h; sourceTree = "<group>"; };
+		E5B459AF247F98DA004F96AF /* UsedHouseMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsedHouseMainCell.m; sourceTree = "<group>"; };
+		E5B459B0247F98DA004F96AF /* MapTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTabView.h; sourceTree = "<group>"; };
+		E5B459B2247F98DA004F96AF /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		E5B459B3247F98DA004F96AF /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		E5B459B4247F98DA004F96AF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E5B459B5247F98DA004F96AF /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		E5B459B6247F98DA004F96AF /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		E5B459B7247F98DA004F96AF /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		E5B459B8247F98DA004F96AF /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		E5B459B9247F98DA004F96AF /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		E5B459BA247F98DA004F96AF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E5B459BB247F98DA004F96AF /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		F12E810F51FE27D95184B51B /* Pods-GSMapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMapTest.debug.xcconfig"; path = "Target Support Files/Pods-GSMapTest/Pods-GSMapTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD93D41580A4FA073846AE6 /* libPods-GSMapTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4795085576A72DE48DF44F42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F12E810F51FE27D95184B51B /* Pods-GSMapTest.debug.xcconfig */,
+				0B232683881C889BEB0B3DF5 /* Pods-GSMapTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		709C46EF9294CF5B161FEB98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				796096895F1CEDAC579314CB /* libPods-GSMapTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5B45951247F9840004F96AF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +161,8 @@
 				E5B45978247F9842004F96AF /* GSMapTestTests */,
 				E5B45983247F9842004F96AF /* GSMapTestUITests */,
 				E5B4595B247F9840004F96AF /* Products */,
+				4795085576A72DE48DF44F42 /* Pods */,
+				709C46EF9294CF5B161FEB98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +179,19 @@
 		E5B4595C247F9840004F96AF /* GSMapTest */ = {
 			isa = PBXGroup;
 			children = (
+				E5B45992247F9850004F96AF /* jiangxiaoyu.png */,
 				E5B4595D247F9840004F96AF /* AppDelegate.h */,
 				E5B4595E247F9840004F96AF /* AppDelegate.m */,
 				E5B45960247F9840004F96AF /* SceneDelegate.h */,
 				E5B45961247F9840004F96AF /* SceneDelegate.m */,
 				E5B45963247F9840004F96AF /* ViewController.h */,
 				E5B45964247F9840004F96AF /* ViewController.m */,
+				E5B45995247F98AE004F96AF /* PrefixHeader.pch */,
+				E5B45996247F98AE004F96AF /* SystemMessageCell.h */,
+				E5B45994247F98AE004F96AF /* SystemMessageCell.m */,
+				E5B45997247F98AE004F96AF /* SystemMessageCell.xib */,
+				E5B4599B247F98B8004F96AF /* Tools */,
+				E5B4599A247F98B5004F96AF /* Map */,
 				E5B45966247F9840004F96AF /* Main.storyboard */,
 				E5B45969247F9842004F96AF /* Assets.xcassets */,
 				E5B4596B247F9842004F96AF /* LaunchScreen.storyboard */,
@@ -137,6 +219,72 @@
 			path = GSMapTestUITests;
 			sourceTree = "<group>";
 		};
+		E5B4599A247F98B5004F96AF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E5B4599F247F98DA004F96AF /* MapModel */,
+				E5B459B1247F98DA004F96AF /* MapVC */,
+				E5B459A2247F98DA004F96AF /* MapView */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E5B4599B247F98B8004F96AF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E5B4599C247F98CD004F96AF /* Foundation+Log.m */,
+				E5B4599D247F98CD004F96AF /* GSMacro.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E5B4599F247F98DA004F96AF /* MapModel */ = {
+			isa = PBXGroup;
+			children = (
+				E5B459A0247F98DA004F96AF /* GSMAPointAnnotation.m */,
+				E5B459A1247F98DA004F96AF /* GSMAPointAnnotation.h */,
+			);
+			path = MapModel;
+			sourceTree = "<group>";
+		};
+		E5B459A2247F98DA004F96AF /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				E5B459A3247F98DA004F96AF /* CustomAnnotationView.m */,
+				E5B459A4247F98DA004F96AF /* GSCustomRectangleView.m */,
+				E5B459A5247F98DA004F96AF /* CustomCalloutView.h */,
+				E5B459A6247F98DA004F96AF /* MapTabView.m */,
+				E5B459A7247F98DA004F96AF /* UsedHouseMainCell.h */,
+				E5B459A8247F98DA004F96AF /* GSCustomRoundView.m */,
+				E5B459A9247F98DA004F96AF /* UsedHouseMainCell.xib */,
+				E5B459AA247F98DA004F96AF /* GSCustomRectangleView.h */,
+				E5B459AB247F98DA004F96AF /* CustomAnnotationView.h */,
+				E5B459AC247F98DA004F96AF /* MapTabView.xib */,
+				E5B459AD247F98DA004F96AF /* CustomCalloutView.m */,
+				E5B459AE247F98DA004F96AF /* GSCustomRoundView.h */,
+				E5B459AF247F98DA004F96AF /* UsedHouseMainCell.m */,
+				E5B459B0247F98DA004F96AF /* MapTabView.h */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		E5B459B1247F98DA004F96AF /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				E5B459B2247F98DA004F96AF /* DViewController.h */,
+				E5B459B3247F98DA004F96AF /* CViewController.h */,
+				E5B459B4247F98DA004F96AF /* BaseViewController.m */,
+				E5B459B5247F98DA004F96AF /* BViewController.h */,
+				E5B459B6247F98DA004F96AF /* AViewController.m */,
+				E5B459B7247F98DA004F96AF /* DViewController.m */,
+				E5B459B8247F98DA004F96AF /* CViewController.m */,
+				E5B459B9247F98DA004F96AF /* BViewController.m */,
+				E5B459BA247F98DA004F96AF /* BaseViewController.h */,
+				E5B459BB247F98DA004F96AF /* AViewController.h */,
+			);
+			path = MapVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B45989247F9842004F96AF /* Build configuration list for PBXNativeTarget "GSMapTest" */;
 			buildPhases = (
+				8850A6A269DD7C4436BAD34F /* [CP] Check Pods Manifest.lock */,
 				E5B45956247F9840004F96AF /* Sources */,
 				E5B45957247F9840004F96AF /* Frameworks */,
 				E5B45958247F9840004F96AF /* Resources */,
@@ -241,7 +390,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B4596D247F9842004F96AF /* LaunchScreen.storyboard in Resources */,
+				E5B459C2247F98DA004F96AF /* MapTabView.xib in Resources */,
+				E5B45999247F98AE004F96AF /* SystemMessageCell.xib in Resources */,
 				E5B4596A247F9842004F96AF /* Assets.xcassets in Resources */,
+				E5B45993247F9850004F96AF /* jiangxiaoyu.png in Resources */,
+				E5B459C1247F98DA004F96AF /* UsedHouseMainCell.xib in Resources */,
 				E5B45968247F9840004F96AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,15 +415,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8850A6A269DD7C4436BAD34F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSMapTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5B45956247F9840004F96AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B459C3247F98DA004F96AF /* CustomCalloutView.m in Sources */,
+				E5B459BE247F98DA004F96AF /* GSCustomRectangleView.m in Sources */,
+				E5B459C0247F98DA004F96AF /* GSCustomRoundView.m in Sources */,
+				E5B45998247F98AE004F96AF /* SystemMessageCell.m in Sources */,
+				E5B459C8247F98DA004F96AF /* CViewController.m in Sources */,
 				E5B45965247F9840004F96AF /* ViewController.m in Sources */,
+				E5B459C5247F98DA004F96AF /* BaseViewController.m in Sources */,
+				E5B459C6247F98DA004F96AF /* AViewController.m in Sources */,
+				E5B459BD247F98DA004F96AF /* CustomAnnotationView.m in Sources */,
 				E5B4595F247F9840004F96AF /* AppDelegate.m in Sources */,
+				E5B459BF247F98DA004F96AF /* MapTabView.m in Sources */,
+				E5B459C4247F98DA004F96AF /* UsedHouseMainCell.m in Sources */,
 				E5B45970247F9842004F96AF /* main.m in Sources */,
+				E5B459C9247F98DA004F96AF /* BViewController.m in Sources */,
 				E5B45962247F9840004F96AF /* SceneDelegate.m in Sources */,
+				E5B4599E247F98CD004F96AF /* Foundation+Log.m in Sources */,
+				E5B459BC247F98DA004F96AF /* GSMAPointAnnotation.m in Sources */,
+				E5B459C7247F98DA004F96AF /* DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,35 +629,41 @@
 		};
 		E5B4598A247F9842004F96AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12E810F51FE27D95184B51B /* Pods-GSMapTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DHHAB2576;
+				GCC_PREFIX_HEADER = GSMapTest/PrefixHeader.pch;
 				INFOPLIST_FILE = GSMapTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E5B4598B247F9842004F96AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B232683881C889BEB0B3DF5 /* Pods-GSMapTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DHHAB2576;
+				GCC_PREFIX_HEADER = GSMapTest/PrefixHeader.pch;
 				INFOPLIST_FILE = GSMapTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GSMapTest.GSMapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

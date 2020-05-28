@@ -1,12 +1,14 @@
 //
 //  AppDelegate.m
-//  GSMapTest
+//  GSMapGD
 //
-//  Created by GS on 2020/5/28.
+//  Created by GS on 2020/5/27.
 //  Copyright © 2020 YY. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    if (@available(iOS 13, *)) {
+    }else{
+        self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        self.window.backgroundColor = GSWhite_Color;
+        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+        self.window.rootViewController = nav;
+        [self.window makeKeyAndVisible];
+    }
+
+
+    [AMapServices sharedServices].apiKey = @"2b9b12e992c01584a2cb04dbbbb034d8";
+
     return YES;
 }
 
@@ -39,3 +53,4 @@
 
 
 @end
+
